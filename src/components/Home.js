@@ -18,17 +18,17 @@ export const Home = () => {
   const Background = "/images/artists.jpg";
 
   return (
-    <div className="container">
+    <div>
       <div
         id="logo-and-background-artists"
         style={{
           width: "100%",
           height: "35rem",
-          backgroundImage: `url(${Background})`,
-          backgroundSize: 'cover'
+          // backgroundImage: `url(${Background})`,
+          // backgroundSize: 'cover'
         }}
       >
-        {/* <img src="/images/artists.jpg" style={{width: '50rem', height: '20rem'}}></img> */}
+        <img src="/images/artists.jpg" style={{height: '100%', width: '100%', objectFit: 'cover'}}></img>
       </div>
       <div id="about-us-and-dates" style={{
           borderTop: "1rem solid #FCED94",
