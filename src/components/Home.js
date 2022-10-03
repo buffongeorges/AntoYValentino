@@ -25,6 +25,7 @@ export const Home = () => {
           width: "100%",
           height: "35rem",
           backgroundImage: `url(${Background})`,
+          backgroundSize: 'cover'
         }}
       >
         {/* <img src="/images/artists.jpg" style={{width: '50rem', height: '20rem'}}></img> */}
